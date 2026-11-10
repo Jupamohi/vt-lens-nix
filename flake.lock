@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794042290,
+        "narHash": "sha256-ziZn2PvCJE5JEEpqTdxXwJpPB+L3YqoCpTAMCzyaP3U=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f4a03c008967841f2a0b3cb7c436fc6fc31671f6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "vt-lens-src": "vt-lens-src"
+      }
+    },
+    "vt-lens-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792762737,
+        "narHash": "sha256-JECET/Kzgmnj83Rr00HPek34R++XKN34XqXGlX3g/DM=",
+        "owner": "ValentinTorassa",
+        "repo": "VT-Lens",
+        "rev": "f2928609f912fa04c326b8e99dd4242f6bb1d615",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ValentinTorassa",
+        "ref": "v0.3.0",
+        "repo": "VT-Lens",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
