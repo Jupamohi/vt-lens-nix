@@ -11,7 +11,7 @@ Requiere Nix con flakes activados.
 ```bash
 nix run github:Jupamohi/vt-lens-nix                  # ejecutar sin instalar
 nix run github:Jupamohi/vt-lens-nix -- --demo        # con datos sintéticos
-nix profile install github:Jupamohi/vt-lens-nix      # instalar en tu perfil
+nix profile add github:Jupamohi/vt-lens-nix      # instalar en tu perfil
 ```
 
 La primera vez compila Rust desde cero, así que tarda unos minutos.
